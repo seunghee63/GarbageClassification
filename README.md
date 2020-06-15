@@ -24,12 +24,13 @@
 ### 성능향상
 
 1. 데이터 셋 수정
-2. 모델 학습과정 수정
-3. 
+2. 모델 수정
 
 
 
---------
+---
+
+## 코드작성
 
 ### 1. 데이터 셋 불러오기
 
@@ -68,6 +69,26 @@
 ```
 
 
+
+---
+
+## 성능향상
+
+![image-20200616023246098](/Users/yangseunghui/Library/Application Support/typora-user-images/image-20200616023246098.png)
+
+![image-20200616023258195](/Users/yangseunghui/Library/Application Support/typora-user-images/image-20200616023258195.png)
+
+
+
+**glass** : 100 %
+
+* glass-> glass : 7/7
+
+**plastic** : 25 %
+
+* plastic -> plastic : 1/4
+* plastic -> glass : 1/1
+* plastic -> metal : 2
 
 
 
